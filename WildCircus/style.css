@@ -1,0 +1,283 @@
+/* Main elements of the page*/
+/****************************/
+
+
+body
+{
+    font-family: calibri, helvetica, arial, sans-serif; 
+    background-color: white;
+    color: black;
+    margin: 0px;
+}
+
+
+/* Red column setup */
+
+#main_wrapper
+{
+    width: 950px;
+    position: relative;
+    margin: 0 auto;
+    background-color: rgba(255,0,0,0.5);
+}
+
+
+/* Footer setup */
+footer
+{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+/* banner size shape and background setup */
+#banner
+{
+    text-align: center;
+    height: 180px;  
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: url('img/banner.jpg');   
+}
+
+
+/* title in the banner */
+h1
+{
+    font-family:curlz mt, helvetica, arial, sans-serif;
+    color: yellow;   
+    font-size: 55px;
+    text-align: center;
+    line-height: 45px;
+    position: relative;
+    margin-top: 0px;
+    top: 41px;
+}
+
+/* first part of the title in the banner */
+.welcome
+{
+  font-size: 30px;
+}
+
+
+/* navigation bar */
+#banner ul
+{
+    position: relative;
+    text-align: left;
+    top: 7px;
+    font-size: 25px;
+    background: rgba(0,0,0,0.5);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+
+#banner li
+{
+    display: inline-block;
+    text-align: center;
+    margin-right: 15px;
+}
+
+
+#banner a
+{
+    color: rgba(255,255,255,1);
+    text-decoration: none;  
+}
+
+
+#banner a:hover
+{
+ background: rgba(0,0,0,0.5);
+}
+
+
+/* border and background setup for some block*/
+.contour
+{
+    border: 2px solid rgba(255,0,0,1);
+    background-color: rgba(255,100,100,1);
+    border-radius: 10px;
+}
+
+
+/* used for About, 2016 selection, and performers list  */
+h2
+{   
+    text-align: center;
+    font-size: 20px;
+    text-decoration: underline;      
+}
+
+
+/* Title for the tour name performances name */
+h3
+{
+    font-size: 35px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+/* Elements of the home page */
+/*****************************/
+
+
+/* general display of the home div in the home section*/
+.homedisplay
+{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 30px;
+    height: 300px;
+}
+
+#about
+{
+    padding: 20px;
+    padding-top: 0px;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 15%; 
+    width: 25%;
+}
+
+#selection
+{
+    padding: 20px;
+    padding-top: 0px;
+    text-align: center;
+    width: 30%;
+}
+
+/* "2016 performance" display*/
+#selection ul
+{
+  list-style-type:none;
+  padding: 0px;
+}
+
+#selection a
+{
+  font-size: 20px;
+}
+
+#selection p
+{
+  margin-top:0px;
+}
+
+#selection a:hover
+{
+  font-size: 22px;
+}
+
+/* Tour and bonus pages */  
+/**********************/
+
+/* Display of the div in the tour and bonus section*/
+.tourbonusdisplay
+{
+    position: relative;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: 300px;    
+}
+
+/* Tour list display */
+
+.date
+{
+  font-size: 14px;
+}
+
+.city
+{
+  font-size: 17px;
+  font-weight: bold;
+}
+
+/* Bonus display */
+
+.bonus p
+{
+text-align: center;
+font-weight: bold;
+}
+
+/* Center the form elements */
+.questions
+{
+text-align: center;
+}
+
+
+/* Performances pages */  
+/**********************/
+
+
+/* general display of the performers and illustration div in the performance section*/
+.performancedisplay
+{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 15px;
+}
+
+/* List Performers div display */
+.performers
+{
+    padding-right: 15px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 50px;    
+    width: 200px;
+}
+
+
+/* Performers list display */
+
+.name
+{
+  font-size: 20px;  
+  font-weight: bold;
+}
+
+.description{
+  font-size: 15px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+
+/* picture display */
+.illustration
+{    
+    width: 600px;
+    height: 400px;     
+    background-size: contain;
+}
+
+/* picture div background */
+#elephant_image
+{    
+    background-image: url('img/elephant.jpg');
+}
+
+#juggling_image
+{    
+    background-image: url('img/juggling.jpg');
+}
+
+#acrobatics_image
+{    
+    background-image: url('img/acrobatics.jpg');
+}
